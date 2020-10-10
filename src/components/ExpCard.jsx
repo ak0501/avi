@@ -8,7 +8,6 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "fontsource-roboto";
-
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -17,11 +16,8 @@ const useStyles = makeStyles({
     height: 140,
   },
 });
-
-
 export default function MediaCard({ image, title, para,link }) {
   const classes = useStyles();
-
   return (
     <Card className={classes.root}>
       <CardActionArea>
