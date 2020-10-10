@@ -23,7 +23,7 @@ const LocalWeather = () => {
       // console.log(position);
       setLat(position.coords.latitude);
       setLon(position.coords.longitude);
-      let values = fetch(
+       fetch(
         `${API_URL}?lat=${lat}&lon=${lon}&units=imperial&appid=${API_KEY}`
       )
         .then((values) => values.json())

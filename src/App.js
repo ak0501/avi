@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-
 import Sidebar from './components/sidebar'
 import Introduction from './components/introduction'
 import About from './components/about'; 
-
-
 class App extends Component {
   render() {
     return (
@@ -14,13 +11,10 @@ class App extends Component {
 				<div id="colorlib-main">
 					<Introduction></Introduction>
 					<About></About>
-         
-				
           	</div>
       	</div>
       </div>
     );
   }
 }
-
 export default App;
